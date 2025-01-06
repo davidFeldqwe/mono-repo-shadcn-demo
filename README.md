@@ -1,6 +1,9 @@
 # shadcn/ui monorepo template
 
-This template is for creating a monorepo with shadcn/ui.
+This demo was created with the shadcn/ui monorepo template is for creating a monorepo with shadcn/ui. 
+
+> **⚠️ Warning**  
+> This is a demo and currently does not work fully. Radix packages are not being installed correctly.
 
 ## Usage
 
@@ -13,7 +16,7 @@ pnpm dlx shadcn@latest init
 To add components to your app, run the following command at the root of your `web` app:
 
 ```bash
-pnpm dlx shadcn@latest add button -c apps/web
+pnpm dlx shadcn@latest add dialog -c apps/web
 ```
 
 This will place the ui components in the `packages/ui/src/components` directory.
